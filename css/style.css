@@ -229,8 +229,13 @@
         display: flex !important;
         flex-wrap: wrap;
     }
-    .banner-2-right .streamer ul li:last-child{
-        transform: translatex(168px) !important;
+       .banner-2-right .streamer ul li:nth-child(4){
+        position: absolute;
+        left: 170px;
+        width: 50%;
+        background-color: #e75e8c;
+        color: #e75e8c;
+        text-align: center;
     }
     .one, .two, .three, .four,.six, .seven{
         width: 48%;
@@ -1228,6 +1233,7 @@ style for your live stream section
     align-items: center;
     gap: 10px;
     padding: 17px 0;
+    position: relative;
 }
 .banner-2-right .streamer ul li:nth-child(3){
     margin-left: 2px;
